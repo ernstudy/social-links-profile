@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* -----------------BODY----------------- */
+body {
+    font-family: "inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+
+/* -----------------CONTAINER----------------- */
+
+.container {
+    background-color: hsl(0, 0%, 8%);
+    max-width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+.container .box {
+    background-color: hsl(0, 0%, 12%);
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    padding: 30px;
+    display: grid;
+    gap: 1rem;
+    place-items: center;
+}
+
+
+.container .box img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.container .box h3 {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 5px;
+}
+
+.container .box p {
+    font-size: 12px;
+}
+
+
+.container .box a {
+    text-decoration: none;
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all ease-in .5s;
+    width: 100%;
+
+}
+
+.container .box a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: #000;
+}
+
+
+
+
+
+
+/* -----------------FOOTER----------------- */
+
+footer {
+    background-color: hsl(0, 0%, 8%);
+    border-top: 1px solid #000;
+  
+}
+
+.attribution { font-size: 11px;
+     text-align: center; 
+     font-size: 11px;
+     padding: 15px;
+    }
+
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+        text-decoration: none;
+    }
